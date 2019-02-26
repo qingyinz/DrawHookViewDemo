@@ -50,7 +50,7 @@ public class DrawHookMarkView  extends View {
     void init() {
         paint = new Paint();
         //设置画笔颜色
-        paint.setColor(getResources().getColor(R.color.colorPrimaryDark));
+        paint.setColor(getResources().getColor(R.color.colorAccent));
         //设置宽度
         paint.setStrokeWidth(lineThick);
         //设置空心

@@ -6,17 +6,8 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity" android:orientation="vertical">
 
-    <com.example.drawhookviewdemo.DrawCheckMarkView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_gravity="center"/>
-    <com.example.drawhookviewdemo.DrawHookMarkView
-            android:layout_width="200dp"
-            android:layout_gravity="center"
-            android:layout_height="200dp"/>
-    <com.example.drawhookviewdemo.DrawHookView
-            android:layout_width="200dp"
-            android:layout_gravity="center"
-            android:layout_height="200dp"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/button"
+    />
 
 </LinearLayout>
